@@ -251,12 +251,12 @@ export default function Portfolio() {
               repoUrl="https://github.com/KhanhVan2212/funiro"
             />
             <ProjectCard
-              title="ClockSchedule"
-              description="This project was created as a personal TypeScript practice project. It allowed me to hone my skills in using TypeScript while building a functional."
-              tags={["React", "TypeScript", "Luxon", "React-Draggable"]}
-              image="/project2.png"
-              demoUrl="https://clock-schedule.vercel.app"
-              repoUrl="https://github.com/KhanhVan2212/ClockSchedule"
+              title="PolyDecor"
+              description="This is an e-commerce project for selling furniture using React for the frontend, Context API for state management, and Node.js for the backend."
+              tags={["React", "Node.js", "Tailwind CSS", "Redux"]}
+              image="/project3.jpg"
+              demoUrl="#"
+              repoUrl="https://github.com/KhanhVan2212/poly-decor"
             />
           </div>
         </div>
@@ -321,9 +321,7 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium">
-                      github.com/Khanhvan2212
-                    </div>
+                    <div className="font-medium">github.com/Khanhvan2212</div>
                   </div>
                 </div>
               </div>
