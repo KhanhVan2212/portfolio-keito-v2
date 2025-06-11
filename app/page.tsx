@@ -6,12 +6,13 @@ import { ProjectCard } from "@/components/project-card";
 import { SkillBadge } from "@/components/skill-badge";
 import { Timeline } from "@/components/timeline";
 import { ContactForm } from "@/components/contact-form";
-import { CreativeHero } from "@/components/creative-hero";
 import { FloatingNav } from "@/components/floating-nav";
 import { MouseFollower } from "@/components/mouse-follower";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { SectionHeading } from "@/components/section-heading";
 import { GlassmorphicCard } from "@/components/glassmorphic-card";
+import AdvancedHeroAnimation from "@/components/hero-animation";
+import { CreativeHero } from "@/components/creative-hero";
 
 export default function Portfolio() {
   return (
@@ -238,7 +239,7 @@ export default function Portfolio() {
               title="NovaGirl - Virtual Girlfriend"
               description="Nova-Girl is an AI-powered virtual girlfriend platform designed to offer users emotionally engaging and personalized companionship experiences. "
               tags={["Next.js", "TypeScript", "Tailwindcss", "React Query"]}
-              image="/project.png"
+              image="/home-banner-m.png"
               demoUrl="https://x-girl-fe-beta.hyrateksolution.com"
               repoUrl="https://github.com"
             />
@@ -246,7 +247,7 @@ export default function Portfolio() {
               title="E-commerce Website"
               description="Developed an e-commerce platform for selling furniture, providing a seamless online shopping experience with a focus on user engagement."
               tags={["ReactJs", "TypeScript", "ReactQuery", "NodeJs", "SCSS"]}
-              image="/project1.png"
+              image="/project22.png"
               demoUrl="https://funiro-html.vercel.app"
               repoUrl="https://github.com/KhanhVan2212/funiro"
             />
