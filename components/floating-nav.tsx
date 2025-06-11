@@ -43,7 +43,7 @@ export function FloatingNav() {
   return (
     <>
       <motion.div
-        className={`fixed top-6 right-1 md:right-[37%] md:left-[36%] transform md:-translate-x-1/2 z-50 ${
+        className={`fixed top-6 right-1 md:right-[34%] md:left-[36%] transform md:-translate-x-1/2 z-50 ${
           isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         initial={{ y: -100 }}
